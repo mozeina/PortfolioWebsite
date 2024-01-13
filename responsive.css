@@ -1,0 +1,239 @@
+/*Mobile screens*/
+@media only screen and (max-width: 300px){
+    header{
+        position: static;
+        height: 200px;
+    }
+
+    .nameOfSite{
+        display: none;
+    }
+    .kindalower{
+        top: 20px;
+    }
+    .intro{
+       position: static;
+       text-align: center;
+       width: 80%;
+       margin: 0 auto;
+    }
+    
+    .mainflex{
+        display: block;
+    }    
+    .projectshowcase{
+        position: relative;
+        top: 400px;
+    }
+    .introimg {
+        display: none;
+        width: 100%;
+    }    
+    .introimg img{
+        width: 100%;
+    }
+    .navarea{
+        display: block;
+    }
+    .navbar{
+      padding-top: 25px; 
+    }    
+    .navbar li{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .biggertext{
+        padding: 10px;
+    }
+    .newfont a{
+        font-size: smaller;
+    }
+    
+
+}
+@media only screen and (min-width: 301px) and (max-width: 353px){
+    header{        position: static;
+        height: 200px;
+    }
+
+    .nameOfSite{
+        display: none;
+    }
+    .kindalower{
+        top: 20px;
+    }
+    .intro{
+       position: static;
+       text-align: center;
+       width: 80%;
+       margin: 0 auto;
+    }
+    
+    .mainflex{
+        display: block;
+    }    
+    .projectshowcase{
+        position: relative;
+        top: 400px;
+    }
+    .introimg {
+        display: none;
+        width: 100%;
+    }    
+    .introimg img{
+        width: 100%;
+    }
+    .navarea{
+        display: block;
+    }
+    .navbar{
+      padding-top: 25px; 
+    }    
+    .navbar li{
+        display: block;
+        margin-top: 30px;
+        text-align: center;
+        margin: 20px 0;
+    }
+    .biggertext{
+        padding: 15px;
+    }
+    .newfont a{
+        font-size: smaller;
+    }
+}
+@media only screen and (min-width: 354px) and (max-width: 639px){
+    body{
+        overflow-x: hidden;
+    }
+    header{
+        display: block;
+        position: static;
+        height: 250px;
+    }
+    .kindalower{
+        top: 50px;
+    }
+    .nameOfSite{
+        display: none;
+    }
+    .navarea{
+        display: block;
+        
+
+    }
+
+    ul.navbar{
+        padding-top: 35px
+    }
+    .navbar li {
+        text-align: center;
+        display: block;
+        margin: 30px auto;
+    
+    }
+    .intro{
+       text-align: center;
+        width: 80%;
+        margin: 0 auto;
+        position: static;
+    }
+    .biggertext{
+        padding: 20px;
+    }
+    .mainflex{
+        width: 100%;
+        display: block;
+    }    
+    .projectshowcase{
+        position: relative;
+        top: 200px;
+    }
+    .introimg {
+        display: block;
+        position: relative;
+        top: 100px;
+        width: 85%;
+        text-align: center;
+        margin: 0 auto;
+    }    
+    
+}
+
+/*Tablet Screens*/
+@media screen and (min-width: 640px) and (max-width: 1024px){
+    header{
+        height: 200px;
+        position: static;
+    }
+    .mainflex{
+        display: block;
+        width: 100%;
+        height: 500px;
+    }
+    .intro{
+
+        width: 50%;
+        position: static;  
+        float: left;
+        margin:  0 30px;
+
+    }
+   
+    .introimg{
+        margin-top: 70px;
+        width: 40%;
+        display: inline-block;
+        
+    }    
+    .introimg img{
+        width: 100%;
+        
+    }
+    nav{
+    
+        padding-right: 30px;
+    }
+    .navarea{
+        display: block;
+        text-align: center;
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .projectshowcase{
+        position: relative;
+        top: 100px;
+    }
+    .navbar li {
+        display: block;
+        margin: 30px 0;
+    }
+    /*-----------------------------------------------------------*/
+    .mainflex2{
+        position: relative;
+        top: 100px;
+    }
+
+}
+
+/*Desktop Screens*/
+@media screen and (min-width: 1025px) and (max-width: 1426px) {
+    .mainflex{
+        justify-content: space-between;
+    }
+    .introimg {
+        margin-top: 70px;
+    }
+    .contact{
+        top: 200px;
+    }
+}
+@media screen and (width > 1427px){
+    .contact{
+        top: 200px;
+    }
+}
